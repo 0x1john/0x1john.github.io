@@ -1,0 +1,9 @@
+main:
+  - title: "Malware Analysis"
+    url: /categories/malware-analysis/
+  - title: "Security Research"
+    url: /categories/Security-Research/
+  - title: "Threat Hunting"
+    url: /categories/threat-hunting/
+  - title: "All Tags"
+    url: /tags/

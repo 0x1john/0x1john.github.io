@@ -1,0 +1,43 @@
+title: "0x1john"
+description: "Malware Analysis • Threat Hunting • DFIR"
+url: "https://0x1john.github.io"
+baseurl: ""
+
+repository: 0x1john/0x1john.github.io
+
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: dark
+
+search: true
+
+author:
+  name: "0x1john"
+  avatar: "/assets/images/avatar.png"
+  bio: "Security Researcher | Threat Hunter | Malware Analysis | Blue Team"
+  location: "Nepal"
+  links:
+    - label: GitHub
+      icon: fab fa-github
+      url: https://github.com/0x1john
+  links:
+    - label: mail
+      icon: fab fa-mail
+      url: amsnowjohn@gmail.com
+
+plugins:
+  - jekyll-include-cache
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: false
+
+archive:
+  type: grid
+  grid:
+    columns: 2
