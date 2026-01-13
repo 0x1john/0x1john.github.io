@@ -3,11 +3,12 @@ layout: default
 title: Home
 ---
 
-<h1>Latest Posts</h1>
+<h2>Recent posts</h2>
 
-{% for post in site.posts %}
 <div class="post-card">
-  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-  <small>{{ post.date | date: "%Y-%m-%d" }}</small>
+  <img src="/assets/images/post1.jpg">
+  <div class="post-body">
+    <h3>DarkGate – Security Research Journey</h3>
+    <p>Shining a light on DarkGate malware tactics and techniques.</p>
+  </div>
 </div>
-{% endfor %}

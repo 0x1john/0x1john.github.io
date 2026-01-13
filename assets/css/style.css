@@ -2,107 +2,127 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Consolas, monospace;
+  font-family: Inter, system-ui, sans-serif;
 }
 
 body {
-  display: flex;
-  background: #0b0f14;
-  color: #d1d5db;
+  background: #1f2430;
+  color: #e5e7eb;
 }
 
-/* Sidebar */
+/* ===== TOP BAR ===== */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  background: #202533;
+  border-bottom: 1px solid #2a2f3d;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-icon {
+  font-size: 22px;
+}
+
+.logo-text {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.topnav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #cbd5e1;
+  font-size: 14px;
+}
+
+.topnav a:hover {
+  color: #38bdf8;
+}
+
+.search {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+/* ===== LAYOUT ===== */
+.layout {
+  display: flex;
+  max-width: 1400px;
+  margin: auto;
+}
+
+/* ===== SIDEBAR ===== */
 .sidebar {
   width: 260px;
-  background: #05080d;
-  min-height: 100vh;
-  padding: 30px 20px;
-  border-right: 1px solid #111;
+  padding: 40px 20px;
 }
 
-.profile h2 {
-  color: #00ffcc;
-  margin-bottom: 6px;
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
 }
 
-.profile p {
-  font-size: 13px;
-  color: #7f8c8d;
-  margin-bottom: 30px;
+.sidebar h2 {
+  margin-bottom: 5px;
 }
 
-.sidebar nav a {
+.bio {
+  font-size: 14px;
+  color: #9ca3af;
+  margin-bottom: 20px;
+}
+
+.links a {
   display: block;
-  color: #cbd5e1;
+  color: #9ca3af;
   text-decoration: none;
-  padding: 10px 0;
-  border-bottom: 1px solid #111;
+  margin-bottom: 8px;
+  font-size: 14px;
 }
 
-.sidebar nav a:hover {
-  color: #00ffcc;
+.links a:hover {
+  color: #38bdf8;
 }
 
-/* Content */
+/* ===== CONTENT ===== */
 .content {
   flex: 1;
   padding: 40px;
 }
 
-.content h1 {
-  color: #00ffcc;
-  margin-bottom: 20px;
-}
-
-.content ul {
-  list-style: none;
-}
-
-.content li {
-  margin-bottom: 12px;
-}
-
-.content a {
-  color: #38bdf8;
-  text-decoration: none;
-}
-
-.content a:hover {
-  text-decoration: underline;
-}
-
-/* Post Card Style */
+/* ===== POST CARDS ===== */
 .post-card {
-  background: #060a10;
-  border: 1px solid #111;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 6px;
-}
-
-.avatar {
-  width: 110px;
-  height: 110px;
-  border-radius: 50%;
-  margin-bottom: 15px;
-  border: 2px solid #00ffcc;
-}
-
-.role {
-  font-size: 13px;
-  color: #9ca3af;
+  display: flex;
+  background: #ffffff;
+  color: #111827;
+  border-radius: 8px;
+  overflow: hidden;
   margin-bottom: 25px;
-  line-height: 1.4;
 }
 
-/* Top spacing polish */
-.sidebar nav a {
+.post-card img {
+  width: 280px;
+  object-fit: cover;
+}
+
+.post-body {
+  padding: 25px;
+}
+
+.post-body h3 {
+  margin-bottom: 10px;
+}
+
+.post-body p {
+  color: #4b5563;
   font-size: 14px;
-  padding: 12px 0;
-}
-
-/* Card hover like Toxin */
-.post-card:hover {
-  border-color: #00ffcc;
-  transition: 0.2s;
 }
