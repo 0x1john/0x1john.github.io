@@ -19,10 +19,6 @@ author:
     - label: GitHub
       icon: fab fa-github
       url: https://github.com/0x1john
-  links:
-    - label: mail
-      icon: fab fa-mail
-      url: amsnowjohn@gmail.com
 
 plugins:
   - jekyll-include-cache
