@@ -79,3 +79,30 @@ body {
   margin-bottom: 20px;
   border-radius: 6px;
 }
+
+.avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 2px solid #00ffcc;
+}
+
+.role {
+  font-size: 13px;
+  color: #9ca3af;
+  margin-bottom: 25px;
+  line-height: 1.4;
+}
+
+/* Top spacing polish */
+.sidebar nav a {
+  font-size: 14px;
+  padding: 12px 0;
+}
+
+/* Card hover like Toxin */
+.post-card:hover {
+  border-color: #00ffcc;
+  transition: 0.2s;
+}
