@@ -15,10 +15,10 @@
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 # Site Settings
 locale                   : "en-US"
-title                    : "Toxin Labs"
+title                    : "0x1john Labs"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "0xToxin"
+name                     : "0x1John"
 description              : "Threat Analyst & IR team leader - Malware Analysis - Blue Team"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -103,24 +103,24 @@ analytics:
 
 # Site Author
 author:
-  name             : "0xToxin"
+  name             : "0x1john"
   avatar           : "/assets/images/main/avatar.jpg"
-  bio              : "Threat Analyst & IR team leader - Malware Analysis - Blue Team"
-  location         : "Israel"
+  bio              : "Security Researcher - Malware Analysis - Blue Team"
+  location         : "Nepal"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:igal.lytzki@gmail.com"
+      url: "mailto:amsnowjohn@gmail.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/0xToxin"
+      url: "https://twitter.com/0x1john"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/0xToxin"
+      url: "https://github.com/0x1john"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/igal-lytzki-99bb0721a/"
+      url: "https://www.linkedin.com/"
 
 # Site Footer
 footer:
