@@ -126,3 +126,33 @@ body {
   color: #4b5563;
   font-size: 14px;
 }
+
+/* ===== NAVBAR LINKS ===== */
+.topbar a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.topbar a:hover {
+  color: #ffffff;
+}
+
+/* ===== SIDEBAR LINKS ===== */
+.sidebar a {
+  display: block;
+  color: #cbd5e1;
+  text-decoration: none;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.sidebar a:hover {
+  color: #ffffff;
+}
+
+/* REMOVE DEFAULT LINK COLORS */
+a {
+  color: inherit;
+}
+
